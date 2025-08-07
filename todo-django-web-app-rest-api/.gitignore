@@ -1,1 +1,26 @@
-.mytodolist
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+.env
+.env.*
+
+db.sqlite3
+/static/
+media/
+.migrations/
+
+# Docker
+*.pid
+*.sock
+*.db
+*.tar
+/app
+
+# Python
+.venv/
+env/
+venv/
